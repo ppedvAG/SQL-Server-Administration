@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Admin 03_2020", "SQL Admin 03_2020\SQL Admin 03_2020.ssmssqlproj", "{D560E31E-705F-4C84-B1F3-2D452F4673DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Richtlinien", "Richtlinien", "{76BD6595-2F41-4BDB-B0EF-E565237BBDAE}"
+	ProjectSection(SolutionItems) = preProject
+		..\SQLPOL\SQLPOL\Asymmetric Key Encryption Algorithm.xml = ..\SQLPOL\SQLPOL\Asymmetric Key Encryption Algorithm.xml
+		..\SQLPOL\SQLPOL\Backup and Data File Location.xml = ..\SQLPOL\SQLPOL\Backup and Data File Location.xml
+		..\SQLPOL\SQLPOL\CmdExec Rights Secured.xml = ..\SQLPOL\SQLPOL\CmdExec Rights Secured.xml
+		..\SQLPOL\SQLPOL\Data and Log File Location.xml = ..\SQLPOL\SQLPOL\Data and Log File Location.xml
+		..\SQLPOL\SQLPOL\Database Auto Close.xml = ..\SQLPOL\SQLPOL\Database Auto Close.xml
+		..\SQLPOL\SQLPOL\Database Auto Shrink.xml = ..\SQLPOL\SQLPOL\Database Auto Shrink.xml
+		..\SQLPOL\SQLPOL\Database Collation.xml = ..\SQLPOL\SQLPOL\Database Collation.xml
+		..\SQLPOL\SQLPOL\Database Page Status.xml = ..\SQLPOL\SQLPOL\Database Page Status.xml
+		..\SQLPOL\SQLPOL\Database Page Verification.xml = ..\SQLPOL\SQLPOL\Database Page Verification.xml
+		..\SQLPOL\SQLPOL\File Growth for SQL Server 2000.xml = ..\SQLPOL\SQLPOL\File Growth for SQL Server 2000.xml
+		..\SQLPOL\SQLPOL\Guest Permissions.xml = ..\SQLPOL\SQLPOL\Guest Permissions.xml
+		..\SQLPOL\SQLPOL\Last Successful Backup Date.xml = ..\SQLPOL\SQLPOL\Last Successful Backup Date.xml
+		..\SQLPOL\SQLPOL\Public Not Granted Server Permissions.xml = ..\SQLPOL\SQLPOL\Public Not Granted Server Permissions.xml
+		..\SQLPOL\SQLPOL\Read-only Database Recovery Model.xml = ..\SQLPOL\SQLPOL\Read-only Database Recovery Model.xml
+		..\SQLPOL\SQLPOL\SQL Server 32-bit Affinity Mask Overlap.xml = ..\SQLPOL\SQLPOL\SQL Server 32-bit Affinity Mask Overlap.xml
+		..\SQLPOL\SQLPOL\SQL Server 64-bit Affinity Mask Overlap.xml = ..\SQLPOL\SQLPOL\SQL Server 64-bit Affinity Mask Overlap.xml
+		..\SQLPOL\SQLPOL\SQL Server Affinity Mask.xml = ..\SQLPOL\SQLPOL\SQL Server Affinity Mask.xml
+		..\SQLPOL\SQLPOL\SQL Server Blocked Process Threshold.xml = ..\SQLPOL\SQLPOL\SQL Server Blocked Process Threshold.xml
+		..\SQLPOL\SQLPOL\SQL Server Default Trace.xml = ..\SQLPOL\SQLPOL\SQL Server Default Trace.xml
+		..\SQLPOL\SQLPOL\SQL Server Dynamic Locks.xml = ..\SQLPOL\SQLPOL\SQL Server Dynamic Locks.xml
+		..\SQLPOL\SQLPOL\SQL Server I_O Affinity Mask For Non-enterprise SQL Servers.xml = ..\SQLPOL\SQLPOL\SQL Server I_O Affinity Mask For Non-enterprise SQL Servers.xml
+		..\SQLPOL\SQLPOL\SQL Server Lightweight Pooling.xml = ..\SQLPOL\SQLPOL\SQL Server Lightweight Pooling.xml
+		..\SQLPOL\SQLPOL\SQL Server Login Mode.xml = ..\SQLPOL\SQLPOL\SQL Server Login Mode.xml
+		..\SQLPOL\SQLPOL\SQL Server Max Degree of Parallelism.xml = ..\SQLPOL\SQLPOL\SQL Server Max Degree of Parallelism.xml
+		..\SQLPOL\SQLPOL\SQL Server Max Worker Threads for 32-bit SQL Server 2000.xml = ..\SQLPOL\SQLPOL\SQL Server Max Worker Threads for 32-bit SQL Server 2000.xml
+		..\SQLPOL\SQLPOL\SQL Server Max Worker Threads for 64-bit SQL Server 2000.xml = ..\SQLPOL\SQLPOL\SQL Server Max Worker Threads for 64-bit SQL Server 2000.xml
+		..\SQLPOL\SQLPOL\SQL Server Max Worker Threads for SQL Server 2005 and above.xml = ..\SQLPOL\SQLPOL\SQL Server Max Worker Threads for SQL Server 2005 and above.xml
+		..\SQLPOL\SQLPOL\SQL Server Network Packet Size.xml = ..\SQLPOL\SQLPOL\SQL Server Network Packet Size.xml
+		..\SQLPOL\SQLPOL\SQL Server Open Objects for SQL Server 2000.xml = ..\SQLPOL\SQLPOL\SQL Server Open Objects for SQL Server 2000.xml
+		..\SQLPOL\SQLPOL\SQL Server Password Expiration.xml = ..\SQLPOL\SQLPOL\SQL Server Password Expiration.xml
+		..\SQLPOL\SQLPOL\SQL Server Password Policy.xml = ..\SQLPOL\SQLPOL\SQL Server Password Policy.xml
+		..\SQLPOL\SQLPOL\SQL Server System Tables Updatable.xml = ..\SQLPOL\SQLPOL\SQL Server System Tables Updatable.xml
+		..\SQLPOL\SQLPOL\Surface Area Configuration for Database Engine 2005 and 2000 Features.xml = ..\SQLPOL\SQLPOL\Surface Area Configuration for Database Engine 2005 and 2000 Features.xml
+		..\SQLPOL\SQLPOL\Surface Area Configuration for Database Engine 2008 Features.xml = ..\SQLPOL\SQLPOL\Surface Area Configuration for Database Engine 2008 Features.xml
+		..\SQLPOL\SQLPOL\Surface Area Configuration for Service Broker Endpoints.xml = ..\SQLPOL\SQLPOL\Surface Area Configuration for Service Broker Endpoints.xml
+		..\SQLPOL\SQLPOL\Surface Area Configuration for SOAP Endpoints.xml = ..\SQLPOL\SQLPOL\Surface Area Configuration for SOAP Endpoints.xml
+		..\SQLPOL\SQLPOL\Symmetric Key Encryption for User Databases.xml = ..\SQLPOL\SQLPOL\Symmetric Key Encryption for User Databases.xml
+		..\SQLPOL\SQLPOL\Symmetric Key for master Database.xml = ..\SQLPOL\SQLPOL\Symmetric Key for master Database.xml
+		..\SQLPOL\SQLPOL\Symmetric Key for System Databases.xml = ..\SQLPOL\SQLPOL\Symmetric Key for System Databases.xml
+		..\SQLPOL\SQLPOL\Trustworthy Database.xml = ..\SQLPOL\SQLPOL\Trustworthy Database.xml
+		..\SQLPOL\SQLPOL\Windows Event Log Cluster Disk Resource Corruption Error.xml = ..\SQLPOL\SQLPOL\Windows Event Log Cluster Disk Resource Corruption Error.xml
+		..\SQLPOL\SQLPOL\Windows Event Log Device Driver Control Error.xml = ..\SQLPOL\SQLPOL\Windows Event Log Device Driver Control Error.xml
+		..\SQLPOL\SQLPOL\Windows Event Log Device Not Ready Error.xml = ..\SQLPOL\SQLPOL\Windows Event Log Device Not Ready Error.xml
+		..\SQLPOL\SQLPOL\Windows Event Log Disk Defragmentation.xml = ..\SQLPOL\SQLPOL\Windows Event Log Disk Defragmentation.xml
+		..\SQLPOL\SQLPOL\Windows Event Log Failed I_O Request Error.xml = ..\SQLPOL\SQLPOL\Windows Event Log Failed I_O Request Error.xml
+		..\SQLPOL\SQLPOL\Windows Event Log I_O Delay Warning.xml = ..\SQLPOL\SQLPOL\Windows Event Log I_O Delay Warning.xml
+		..\SQLPOL\SQLPOL\Windows Event Log I_O Error During Hard Page Fault Error.xml = ..\SQLPOL\SQLPOL\Windows Event Log I_O Error During Hard Page Fault Error.xml
+		..\SQLPOL\SQLPOL\Windows Event Log Read Retry Error.xml = ..\SQLPOL\SQLPOL\Windows Event Log Read Retry Error.xml
+		..\SQLPOL\SQLPOL\Windows Event Log Storage System I_O Timeout Error.xml = ..\SQLPOL\SQLPOL\Windows Event Log Storage System I_O Timeout Error.xml
+		..\SQLPOL\SQLPOL\Windows Event Log System Failure Error.xml = ..\SQLPOL\SQLPOL\Windows Event Log System Failure Error.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Indizes", "Indizes", "{F5FAAC49-4368-4C14-AE84-C6707F8F8829}"
+	ProjectSection(SolutionItems) = preProject
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Indizes\I_Überflüssige IX.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Indizes\I_Überflüssige IX.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Indizes\II_Fehlende Indizes.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Indizes\II_Fehlende Indizes.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Indizes\IX Vorschlag.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Indizes\IX Vorschlag.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DMVs", "DMVs", "{2A85D0B1-78FF-43A6-9BB2-B8E64F9804B8}"
+	ProjectSection(SolutionItems) = preProject
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\000F_IO Perf.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\000F_IO Perf.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\000G_Largest IOS.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\000G_Largest IOS.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\000K_ShowIOBottlenecksSQL2012.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\000K_ShowIOBottlenecksSQL2012.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\000M_Teueste Abfragen nach_IO.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\000M_Teueste Abfragen nach_IO.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\IO DB Bottleneck.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\IO DB Bottleneck.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\IO Perf.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\IO Perf.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\Largest IOS.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\Largest IOS.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\Pläne im RAM.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\Pläne im RAM.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\SQL Server 2019 Diagnostic Information Queries.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\SQL Server 2019 Diagnostic Information Queries.sql
+		..\WAIT_STATS.sql = ..\WAIT_STATS.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirstResponderKit", "FirstResponderKit", "{53313CE4-8227-4667-BED9-14B4DF68BD7C}"
+	ProjectSection(SolutionItems) = preProject
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\2020_Data_Professional_Salary_Survey_Responses.xlsx = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\2020_Data_Professional_Salary_Survey_Responses.xlsx
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\_readme.txt = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\_readme.txt
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - Google Compute Engine - Disaster Recovery.pdf = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - Google Compute Engine - Disaster Recovery.pdf
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - Google Compute Engine - How to Build an Always On Availability Group.pdf = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - Google Compute Engine - How to Build an Always On Availability Group.pdf
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - Google Compute Engine - Performance Tuning.pdf = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - Google Compute Engine - Performance Tuning.pdf
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - How to Develop Your DBA Career.pdf = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - How to Develop Your DBA Career.pdf
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - SQL Server Migration Checklist.pdf = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - SQL Server Migration Checklist.pdf
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - SQL Server Setup Checklist.pdf = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\eBook - SQL Server Setup Checklist.pdf
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Install-All-Scripts.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Install-All-Scripts.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Install-Core-Blitz-No-Query-Store.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Install-Core-Blitz-No-Query-Store.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Install-Core-Blitz-With-Query-Store.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Install-Core-Blitz-With-Query-Store.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\LICENSE.md = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\LICENSE.md
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_AllNightLog.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_AllNightLog.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_AllNightLog_Setup.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_AllNightLog_Setup.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_Blitz.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_Blitz.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzBackups.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzBackups.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzCache.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzCache.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzFirst.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzFirst.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzIndex.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzIndex.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzInMemoryOLTP.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzInMemoryOLTP.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzLock.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzLock.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzQueryStore.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzQueryStore.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzWho.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_BlitzWho.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_DatabaseRestore.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_DatabaseRestore.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_ineachdb.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\sp_ineachdb.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\SqlServerVersions.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\SqlServerVersions.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Uninstall.sql = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Uninstall.sql
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Worksheet - First Responder Checklist.docx = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Worksheet - First Responder Checklist.docx
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Worksheet - Hardware Sizing.xlsx = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Worksheet - Hardware Sizing.xlsx
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Worksheet - High Availability and Disaster Recovery Planning.pdf = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Worksheet - High Availability and Disaster Recovery Planning.pdf
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Worksheet - Sample SQL Server Inventory.xlsx = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Worksheet - Sample SQL Server Inventory.xlsx
+		\\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Worksheet - SQL Server Support Matrix.docx = \\nodeone\c$\Users\Administrator.SQLDOM\Desktop\Scripte\Monitoring\FirstResponderKit\Worksheet - SQL Server Support Matrix.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D560E31E-705F-4C84-B1F3-2D452F4673DB}.Default|Default.ActiveCfg = Default
+		{EFF2EAD8-AAB6-48A1-B521-CD207A277B80}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06EA66DD-6180-466E-939D-DCF40C5FB51B}
+	EndGlobalSection
+EndGlobal

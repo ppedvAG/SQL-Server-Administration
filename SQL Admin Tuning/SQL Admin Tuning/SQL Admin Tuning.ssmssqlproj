@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Admin Tuning">
+  <Items>
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="HV-SQL2019:HV-SQL2019\Administrator">
+          <Created>2020-03-26T08:36:05.1352017+01:00</Created>
+          <Type>SQL</Type>
+          <Server>HV-SQL2019</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0001_Serversetttings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0001_Serversetttings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0002_DBSettings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0002_DBSettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0003_Mehr HDDs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0003_Mehr HDDs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0004_Indizes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0004_Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Index sehen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Index sehen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pefmon HDD.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Pefmon HDD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Perf_Counter HDD.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Perf_Counter HDD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pozedurentest.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Pozedurentest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Script to list VLF counts for all online databases.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Script to list VLF counts for all online databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_RECap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>X_RECap.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

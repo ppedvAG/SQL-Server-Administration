@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Admin Tuning", "SQL Admin Tuning\SQL Admin Tuning.ssmssqlproj", "{370471D3-9418-4F17-AFC9-FED5AA052955}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DMVs", "DMVs", "{2656C65C-B9D3-4893-8B0B-670638BAC767}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Indizes", "Indizes", "{AA00731E-40F1-4F58-B60C-16521C4116BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sonstiges", "Sonstiges", "{9E693143-19D3-4908-B4FE-A26BCC58DA76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{370471D3-9418-4F17-AFC9-FED5AA052955}.Default|Default.ActiveCfg = Default
+		{21754E29-E0F6-48F0-8670-20DB9615555F}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1049A512-6466-46E6-800A-9A8B28FB2B27}
+	EndGlobalSection
+EndGlobal
